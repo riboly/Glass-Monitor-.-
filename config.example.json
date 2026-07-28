@@ -1,0 +1,66 @@
+{
+  "theme_id": "midnight",
+  "autostart": false,
+  "update_interval_ms": 1000,
+  "history_points": 60,
+  "hotkey": {
+    "enabled": true,
+    "toggle_visible": "ctrl+shift+Q"
+  },
+  "window": {
+    "width": 300,
+    "margin_right": 20,
+    "margin_top": 72,
+    "always_on_top": true,
+    "visible": true,
+    "corner_radius": 22,
+    "content_margin": 12,
+    "alpha": 0.96,
+    "shell_opacity": 0,
+    "card_opacity": 72,
+    "lock_pos": false,
+    "click_through": false,
+    "layout_preset": "standard",
+    "snap_px": 16,
+    "hide_on_fullscreen": true
+  },
+  "traffic": {
+    "enabled": false,
+    "url": "",
+    "proxy": "",
+    "interval_min": 5,
+    "interval_sec": 300
+  },
+  "text_halo": 0.8,
+  "cards": {
+    "clock": false,
+    "hw": true,
+    "speed": true,
+    "chart": true,
+    "disk": false,
+    "proc": false,
+    "sys": false,
+    "traffic": false
+  },
+  "card_order": [
+    "clock",
+    "hw",
+    "speed",
+    "chart",
+    "disk",
+    "proc",
+    "sys",
+    "traffic"
+  ],
+  "alerts": {
+    "enabled": false,
+    "cpu_temp": 85,
+    "gpu_temp": 85,
+    "memory": 90,
+    "disk": 90,
+    "traffic": 85,
+    "duration_sec": 15,
+    "cooldown_sec": 300,
+    "hysteresis": 3
+  }
+}

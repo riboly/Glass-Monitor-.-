@@ -1,0 +1,99 @@
+{
+  "theme_id": "aurora",
+  "autostart": true,
+  "update_interval_ms": 1000,
+  "history_points": 60,
+  "hotkey": {
+    "enabled": true,
+    "toggle_visible": "ctrl+shift+Q"
+  },
+  "window": {
+    "width": 270,
+    "margin_right": 20,
+    "margin_top": 72,
+    "always_on_top": true,
+    "visible": true,
+    "corner_radius": 22,
+    "content_margin": 10,
+    "alpha": 0.96,
+    "shell_opacity": 0,
+    "card_opacity": 71,
+    "lock_pos": false,
+    "snap_px": 16,
+    "hide_on_fullscreen": true,
+    "click_through": false,
+    "layout_preset": "compact",
+    "height": 614
+  },
+  "traffic": {
+    "enabled": true,
+    "url": "",
+    "proxy": "",
+    "interval_min": 5,
+    "interval_sec": 300
+  },
+  "style": {
+    "accent_cpu": "#5DE2C2",
+    "accent_mem": "#B39DFF",
+    "accent_gpu": "#76B7FF",
+    "accent_up": "#65E6C2",
+    "accent_down": "#8D9BFF",
+    "text_primary": "#ECFFFA",
+    "text_secondary": "#91BDB7",
+    "text_tertiary": "#5D817D",
+    "glass_bg": "#0A1718",
+    "glass_card": "#102425",
+    "glass_elevated": "#1B3838",
+    "glass_border": "#2B5551",
+    "separator": "#1B3838",
+    "traffic_green": "#30D158",
+    "traffic_yellow": "#FFD60A",
+    "traffic_red": "#FF453A"
+  },
+  "text_halo": 0.83,
+  "doubleclick": {
+    "clock": "control_panel",
+    "hw": "taskmgr",
+    "speed": "ncpa",
+    "chart": "this_pc",
+    "disk": "diskmgmt",
+    "proc": "resmon",
+    "sys": "ms_settings",
+    "traffic": "toggle_desktop_icons"
+  },
+  "cards": {
+    "clock": true,
+    "hw": true,
+    "speed": true,
+    "chart": true,
+    "disk": false,
+    "proc": false,
+    "sys": false,
+    "traffic": true
+  },
+  "clock": {
+    "stroke": 0.3684210526315789,
+    "tracking": 4.184210526315789
+  },
+  "card_order": [
+    "clock",
+    "hw",
+    "speed",
+    "chart",
+    "disk",
+    "proc",
+    "sys",
+    "traffic"
+  ],
+  "alerts": {
+    "enabled": false,
+    "cpu_temp": 85,
+    "gpu_temp": 85,
+    "memory": 90,
+    "disk": 90,
+    "traffic": 85,
+    "duration_sec": 15,
+    "cooldown_sec": 300,
+    "hysteresis": 3
+  }
+}

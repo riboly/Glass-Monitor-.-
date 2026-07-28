@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+window_pos.json
+crash.log
+data/
+*.tmp
+*.bak
+*.bak_*
+verify_frame.png
+verify_log.txt
